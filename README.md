@@ -45,10 +45,13 @@
 1. Open the `/android_app` project in Android Studio.
 2. **Configuration:** Open `ControlEditorActivity.kt` and update the `APP_ID` to match your Garmin manifest UUID.
 3. Build the APK and install it on your Android device.
-
 ---
 
 ## 📁 Repository Structure
 ├── android_app/      # Kotlin source code (Mobile Companion)
-├── watch_activity/   # Monkey C source code (Garmin App)
+
+├── watch_activity/   # Monkey C source code (Garmin App)\
+
+├── art/              # Some art for publish
+
 └── README.md

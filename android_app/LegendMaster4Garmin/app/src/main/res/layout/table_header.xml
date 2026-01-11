@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#222222">
+
+    <TextView style="@style/HeaderCell" android:text="A" />
+    <TextView style="@style/HeaderCell" android:text="B" />
+    <TextView style="@style/HeaderCell" android:text="C" />
+
+    <View android:layout_width="4dp" android:layout_height="match_parent" android:background="#55AAFF" />
+
+    <TextView style="@style/HeaderCell" android:text="D" />
+    <TextView style="@style/HeaderCell" android:text="E" />
+    <TextView style="@style/HeaderCell" android:text="F" />
+
+    <View android:layout_width="4dp" android:layout_height="match_parent" android:background="#55AAFF" />
+
+    <TextView style="@style/HeaderCell" android:text="G" />
+    <TextView style="@style/HeaderCell" android:text="H" />
+    
+    <View android:layout_width="150dp" android:layout_height="match_parent" />
+</LinearLayout>
