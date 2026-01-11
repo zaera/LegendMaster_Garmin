@@ -1,0 +1,36 @@
+﻿.idea/
+*.iml
+.DS_Store
+/build
+capture/
+local.properties
+*.jks
+*.keystore
+google-services.json
+!example.json
+/build
+*.aab
+*.apk
+
+# === Connect IQ (Monkey C) ===
+bin/
+gen/
+*.prg
+*.prg.debug
+*.mir
+*.der
+*.key
+.jpt/
+.settings/
+.project
+*.log
+simulator.json
+*.iq
+
+# === VS Code Settings ===
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
