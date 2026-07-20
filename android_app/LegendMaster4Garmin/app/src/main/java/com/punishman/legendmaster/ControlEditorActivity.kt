@@ -25,7 +25,7 @@ class ControlEditorActivity : AppCompatActivity() {
     private lateinit var adapter: ControlTableAdapter
     private lateinit var tvNameDisplay: TextView
     private var originalFileName: String? = null
-    private val APP_ID = "YOUR_GARMIN_APP_ID_HERE"
+    private val APP_ID = "1bb73588626f43699d47c5f07a81819e"
 
 
     private var connectIQ: ConnectIQ? = null

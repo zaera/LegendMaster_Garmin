@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
-    <iq:application id="YOUR_GARMIN_APP_ID_HERE" type="watch-app" name="@Strings.AppName" entry="legendmasterApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.4.0">
+    <iq:application id="1bb73588626f43699d47c5f07a81819e" type="watch-app" name="@Strings.AppName" entry="legendmasterApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.4.0">
 
         <iq:products>
             <iq:product id="epix2"/>
             <iq:product id="epix2pro42mm"/>
             <iq:product id="epix2pro47mm"/>
             <iq:product id="epix2pro51mm"/>
+            <iq:product id="enduro"/>
+            <iq:product id="enduro3"/>
             <iq:product id="etrextouch"/>
             <iq:product id="fenix3"/>
             <iq:product id="fenix3_hr"/>
